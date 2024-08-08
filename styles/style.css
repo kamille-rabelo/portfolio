@@ -32,10 +32,6 @@ body {
     color: var(--quartenary-color);
 }
 
-.text-body-emphasis {
-    color: var(--tertiary-color) !important;
-}
-
 .btn-customized {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -53,6 +49,10 @@ p.opacity-75 {
 
 h1 {
     color: var(--primary-color);
+}
+
+.text-body-emphasis, h2, h3 {
+    color: var(--quartenary-color) !important;
 }
 
 .carousel-caption {
